@@ -57,7 +57,6 @@ if (!empty($_SESSION['cart'])) {
 </header>
 
 
-<!-- HERO SECTION -->
 <section class="hero">
     <div class="hero-text">
         <h1>New Season<br>Collection</h1>
@@ -258,3 +257,4 @@ document.getElementById("cartCount").innerText = count;
 
 
 </html>
+
