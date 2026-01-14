@@ -21,10 +21,11 @@ if (mysqli_num_rows($result) == 1) {
         exit;
 
     } else {
-        echo "❌ Wrong password";
+        echo "Wrong password";
     }
 
 } else {
-    echo "❌ User not found";
+    echo "User not found";
 }
 ?>
+
